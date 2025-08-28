@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Everyday Edit</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>The Everyday Edit</h1>
+    <button id="darkModeToggle" aria-label="Toggle dark mode">🌙</button>
+  </header>
+  <main>
+    <section class="blog-grid">
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=500&q=80" alt="Nature Walk">
+        <div class="card-content">
+          <h2>Morning in the Meadow</h2>
+          <p class="preview">
+            A gentle sunrise filtered through wild grass, dew drops catching the light...
+          </p>
+          <div class="more-content" hidden>
+            <p>
+              The air was crisp, the world silent except for the soft chirping of hidden birds. I walked slowly, savoring every breath, letting my mind wander with the drifting clouds above. There’s a quiet magic in early hours, and today it felt especially profound.
+            </p>
+          </div>
+          <button class="read-more">Read more</button>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=500&q=80" alt="Coffee and Notebook">
+        <div class="card-content">
+          <h2>Notes Over Coffee</h2>
+          <p class="preview">
+            My favorite mornings start with a mug of coffee and a blank page...
+          </p>
+          <div class="more-content" hidden>
+            <p>
+              The gentle hum of the city beyond the window, the aromatic steam rising, and the anticipation of ideas yet to find form—these moments are my creative fuel. Sometimes, the words don’t come easily, but the ritual itself brings peace.
+            </p>
+          </div>
+          <button class="read-more">Read more</button>
+        </div>
+      </article>
+      <article class="card">
+        <img src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=500&q=80" alt="Books and Glasses">
+        <div class="card-content">
+          <h2>Evening Reads</h2>
+          <p class="preview">
+            Curling up with a good book has become my way to unwind...
+          </p>
+          <div class="more-content" hidden>
+            <p>
+              By the soft lamp glow, stories open up new worlds. Each chapter is a gentle reminder that life’s pace can slow, that imagination is a welcome companion at the end of every busy day.
+            </p>
+          </div>
+          <button class="read-more">Read more</button>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <nav aria-label="Social media">
+      <a href="https://twitter.com/" target="_blank" aria-label="Twitter" class="social-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M22.46 6c-.77.35-1.6.58-2.46.69a4.15 4.15 0 0 0 1.82-2.29c-.8.48-1.7.82-2.66 1A4.14 4.14 0 0 0 12 8.12c0 .32.04.63.1.93C8.09 8.82 4.81 7.1 2.64 4.5c-.36.62-.56 1.34-.56 2.1 0 1.45.74 2.73 1.88 3.48A4.13 4.13 0 0 1 2 9.1v.05c0 2.04 1.45 3.74 3.37 4.13-.36.1-.75.15-1.15.15-.28 0-.55-.03-.82-.07.56 1.77 2.18 3.07 4.1 3.11A8.33 8.33 0 0 1 2 19.54 11.73 11.73 0 0 0 8.29 21.5c7.55 0 11.68-6.26 11.68-11.68 0-.18-.01-.36-.02-.54A8.18 8.18 0 0 0 24 4.6a8.1 8.1 0 0 1-2.34.64A4.14 4.14 0 0 0 22.46 6z"/></svg>
+      </a>
+      <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2.2c3.2 0 3.584.012 4.85.07 1.17.056 1.977.24 2.43.406a4.9 4.9 0 0 1 1.675 1.08 4.9 4.9 0 0 1 1.08 1.675c.167.453.35 1.26.406 2.43.058 1.266.07 1.65.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.977-.406 2.43a4.9 4.9 0 0 1-1.08 1.675 4.9 4.9 0 0 1-1.675 1.08c-.453.167-1.26.35-2.43.406-1.266.058-1.65.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.977-.24-2.43-.406a4.9 4.9 0 0 1-1.675-1.08 4.9 4.9 0 0 1-1.08-1.675c-.167-.453-.35-1.26-.406-2.43C2.212 15.784 2.2 15.4 2.2 12s.012-3.584.07-4.85c.056-1.17.24-1.977.406-2.43a4.9 4.9 0 0 1 1.08-1.675A4.9 4.9 0 0 1 5.361 2.67c.453-.167 1.26-.35 2.43-.406C8.416 2.212 8.8 2.2 12 2.2zm0-2.2C8.736 0 8.332.013 7.052.07 5.77.127 4.786.312 4.023.558a6.887 6.887 0 0 0-2.426 1.59A6.887 6.887 0 0 0 .558 4.023c-.246.763-.431 1.747-.488 3.029C.013 8.332 0 8.736 0 12c0 3.264.013 3.668.07 4.948.057 1.282.242 2.266.488 3.029a6.887 6.887 0 0 0 1.59 2.426 6.887 6.887 0 0 0 2.426 1.59c.763.246 1.747.431 3.029.488C8.332 23.987 8.736 24 12 24s3.668-.013 4.948-.07c1.282-.057 2.266-.242 3.029-.488a6.887 6.887 0 0 0 2.426-1.59 6.887 6.887 0 0 0 1.59-2.426c.246-.763.431-1.747.488-3.029.057-1.28.07-1.684.07-4.948s-.013-3.668-.07-4.948c-.057-1.282-.242-2.266-.488-3.029a6.887 6.887 0 0 0-1.59-2.426A6.887 6.887 0 0 0 19.977.558c-.763-.246-1.747-.431-3.029-.488C15.668.013 15.264 0 12 0zm0 5.838A6.162 6.162 0 1 0 18.162 12 6.162 6.162 0 0 0 12 5.838zm0 10.162A4 4 0 1 1 16 12a4 4 0 0 1-4 4zm6.406-10.845a1.44 1.44 0 1 1-1.44-1.44 1.44 1.44 0 0 1 1.44 1.44z"/></svg>
+      </a>
+      <a href="https://github.com/" target="_blank" aria-label="GitHub" class="social-icon">
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor"><path d="M12 2C6.475 2 2 6.475 2 12c0 4.418 2.865 8.167 6.839 9.489.5.091.682-.217.682-.482 0-.237-.008-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.004.07 1.532 1.032 1.532 1.032.892 1.529 2.341 1.088 2.91.833.092-.646.349-1.088.635-1.338-2.22-.253-4.555-1.111-4.555-4.947 0-1.092.39-1.987 1.029-2.687-.103-.253-.445-1.272.098-2.65 0 0 .84-.27 2.75 1.025A9.564 9.564 0 0 1 12 6.844c.85.004 1.705.115 2.504.338 1.909-1.296 2.748-1.025 2.748-1.025.545 1.378.203 2.397.1 2.65.64.7 1.028 1.595 1.028 2.687 0 3.845-2.338 4.691-4.566 4.94.359.309.678.919.678 1.854 0 1.338-.012 2.419-.012 2.748 0 .268.18.577.688.479C19.137 20.163 22 16.415 22 12c0-5.525-4.475-10-10-10Z"/></svg>
+      </a>
+    </nav>
+    <small>&copy; 2025 The Everyday Edit</small>
+  </footer>
+</body>
+</html>
