@@ -14,10 +14,10 @@ A minimal, elegant blog layout built with semantic **HTML5**, **CSS3**, and **Ja
 - JavaScript (ES6+)  
 
 ## 📸 Screenshots
-![Blog Screenshot]()
+![Blog Screenshot](blog.jpg)
 
 ## 🔗 Live Demo
-[View Live Site]()
+[View Live Site](https://shadow12sniper.github.io/The-Everyday-Edit/)
 
 ## 📂 How to Use
 1. Clone the repo:  
